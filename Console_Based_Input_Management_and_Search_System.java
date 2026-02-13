@@ -89,11 +89,11 @@ public class Console_Based_Input_Management_and_Search_System
                 }
             }
             System.out.println(" ");
-            System.out.println("Thanks");
             System.out.println("Do you want to restart type yes or no");
             String m=read.nextLine();
             if(m.equalsIgnoreCase("no"))
             {
+                System.out.println("Thanks");
                 System.out.println("Bye");
                 break;
             }
@@ -103,4 +103,5 @@ public class Console_Based_Input_Management_and_Search_System
             }      
         }
     }
+
 }
